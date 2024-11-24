@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-color: #121212; /* Deep Ocean Blue to Sky Blue to Sea Green */
+    min-height: 100vh;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}  
+
+
+
+
+
+
+/* 
+=========================
+NAVBAR
+=======================
+*/
+
+.navbar {
+    background: transparent;
+}
+
+
+
+/* 
+======================
+MAIN CLASS CONTAINER 
+=====================
+*/
+
+/* h1 */
+.display-1 {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+
+
+
+
+/* 
+===========================
+FOOTER 
+=======================
+*/
+
+.footer-link {
+    text-decoration: none;
+}
+
+
+             /* 
+             ===========================
+             Skills.html
+             ======================
+             */
+.skill-card {
+    background: #1e1e1e;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: black;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+    color: white;
+    
+}
+
+.skill-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+}
+
+.skill-icon {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+    color: #00d9ff;
+}
+
+.skill-card p {
+    color: #9a9898;
+}
+
+.skill-icon i {
+    transition: transform 0.3s ease;
+}
+
+.skill-card:hover .skill-icon i {
+    transform: rotate(360deg);
+}
+
+
+/*
+============================
+PROJECT.HTML
+=========================
+*/
+
+
+.project-card {
+    transition: transform 0.3s ease-in-out;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: rgba(33, 37, 41, 0.9) !important;
+    backdrop-filter: blur(10px);
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    border-color: rgba(255, 255, 255, 0.2);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.badge {
+    padding: 0.5em 1em;
+    font-weight: 500;
+}
+
+.btn-group .btn {
+    border-radius: 20px;
+}
+
+/* Darker card footer */
+.card-footer {
+    background: rgba(0, 0, 0, 0.2) !important;
+}
+
+/* Glowing effect on hover */
+.project-card:hover {
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+}
+        
+
+/*
+=========================
+Certificates.html
+=========================
+*/
+
+.description {
+    color: rgb(171, 166, 166);
+}
+
+.card-title {
+    font-size: 2rem;
+}
+
+
+/*
+========================
+Contact.html
+=================
+*/
+
+
+.form-control {
+    background-color: #2b2b2b; /* Darker input fields */
+    color: #eaeaea; 
+    border: 1px solid #555;
+    padding: 12px;
+   
+}
+
+.form-control:focus {
+    background-color: #3c3c3c;
+    color: #ffffff;
+    border-color: #007bff;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.6);
+}
+
+/* Button styling */
+.btn-outline-light {
+    border-color: #ffffff; /* White border */
+    color: #ffffff; /* White text */
+}
+
+
+.btn-outline-light:hover {
+    background-color: #ffffff; /* White background on hover */
+    color: #121212; /* Dark text on hover */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+}
+
+ .container {
+    border-radius: 8px; /* Rounded corners */
+    padding: 30px; /* Padding around the container */
+    background: linear-gradient(135deg, #1f1f1f, #2b2b2b);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.5); /* More pronounced shadow */
+    color: #eaeaea; 
+} 
+
+.connect {
+    color: grey;
+}
+
+
